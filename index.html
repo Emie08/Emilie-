@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Gourmet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Gourmet</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#paiement">Paiement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Notre Menu</h2>
+        <div class="menu-category">
+            <h3>Entrée</h3>
+            <p>Salade César - 5€</p>
+        </div>
+        <div class="menu-category">
+            <h3>Plat principal</h3>
+            <p>Filet mignon - 15€</p>
+        </div>
+        <div class="menu-category">
+            <h3>Dessert</h3>
+            <p>Fondant au chocolat - 7€</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p><strong>Téléphone :</strong> +261 32 00 000 00</p>
+        <p><strong>Email :</strong> contact@restaurantgourmet.com</p>
+        <p><strong>Adresse :</strong> Avenue de la Gastronomie, Antananarivo</p>
+    </section>
+
+    <section id="avis">
+        <h2>Vos Avis</h2>
+        <p>Laissez vos avis pour nous aider à nous améliorer !</p>
+        <textarea placeholder="Écrivez votre avis ici..."></textarea>
+        <button>Envoyer</button>
+    </section>
+
+    <section id="paiement">
+        <h2>Paiement</h2>
+        <p>Paiement sécurisé via Orange Money.</p>
+        <button onclick="window.alert('Lien de paiement Orange Money en cours de développement.')">Payer maintenant</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Gourmet. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+# Restaurant Gourmet Website
+This is a professional website for "Restaurant Gourmet" showcasing its menu, contact details, customer reviews, and payment options.
+
+## Features
+- Responsive design
+- Easy navigation
+- Payment integration (in progress)
+
+## How to use
+1. Clone the repository.
+2. Open `index.html` in your browser.
+MIT License
+node_modules/
+*.log
+*.tmp
+.DS_Store
+
+
